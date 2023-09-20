@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/jota"
+        android:layout_marginTop="50dp"
+        />
+
+    <ImageButton
+        android:id="@+id/ibBack"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/icon_back"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:id="@+id/tvProduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Figure Alok Original"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@id/gambar1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$ 24.50"
+        android:textColor="#ff7f00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/tvProduk"
+        android:layout_marginStart="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/ibFavorite"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/baseline_favorite_24"
+        android:backgroundTint="#ff7f00"
+        android:layout_below="@id/tvProduk"
+        android:layout_marginEnd="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/ibStar1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/baseline_star_24"
+        android:backgroundTint="#fbc02d"
+        android:layout_below="@id/tvPrice"
+        android:layout_marginStart="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/ibStar2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/baseline_star_24"
+        android:backgroundTint="#fbc02d"
+        android:layout_below="@id/tvPrice"
+        android:layout_toRightOf="@id/ibStar1"
+        />
+
+    <ImageButton
+        android:id="@+id/ibStar3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/baseline_star_24"
+        android:backgroundTint="#fbc02d"
+        android:layout_below="@id/tvPrice"
+        android:layout_toRightOf="@id/ibStar2"
+        />
+    <ImageButton
+        android:id="@+id/ibStar4"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/baseline_star_24"
+        android:backgroundTint="#fbc02d"
+        android:layout_below="@id/tvPrice"
+        android:layout_toRightOf="@id/ibStar3"
+        />
+
+    <ImageButton
+        android:id="@+id/ibStar5"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/baseline_star_24"
+        android:backgroundTint="#808080"
+        android:layout_below="@id/tvPrice"
+        android:layout_toRightOf="@id/ibStar4"
+        />
+    
+    <TextView
+        android:id="@+id/rateNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.0"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_below="@id/tvPrice"
+        android:layout_toRightOf="@id/ibStar5"
+        />
+
+    <View
+        android:id="@+id/batas"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/ibStar5"
+        android:background="#808080"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textColor="#808080"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/batas"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/isiBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FreeFire"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/batas"
+        android:layout_toRightOf="@id/brand"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tipe"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Tipe"
+        android:textColor="#808080"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/brand"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/isiTipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skin Basic"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/isiBrand"
+        android:layout_toRightOf="@id/tipe"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/dimention"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Dimention"
+        android:textColor="#808080"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/tipe"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/isiDimention"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 x 4.5 x "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/isiTipe"
+        android:layout_toRightOf="@id/dimention"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="#808080"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/dimention"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/isiLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bogor, Jawa Barat"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/isiDimention"
+        android:layout_toRightOf="@id/location"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/location"
+        android:text="buy now"
+        android:backgroundTint="#FFFF7F00"
+        />
+
+
+
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+    <ImageButton
+        android:id="@+id/ibMenu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_sort_24"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/ivBackgorund"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:background="@drawable/latihan_rectangle"
+        android:layout_alignParentEnd="true"
+        />
+
+    <ImageView
+        android:id="@+id/ivPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/jota"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="55dp"
+        />
+
+    <ImageView
+        android:id="@+id/ivPicture2"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:src="@drawable/logo_epep_removebg_preview"
+        android:layout_marginStart="260dp"
+        />
+
+    <TextView
+        android:id="@+id/tvSale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Big Sale"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="270sp"
+        android:layout_marginStart="20dp"
+        android:textColor="#FFF57C00"
+        />
+
+    <TextView
+        android:id="@+id/tvDisc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSale"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-10dp"
+        android:text="10%"
+        android:textColor="#FFF57C00"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvLT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDisc"
+        android:text="*Limited Times"
+        android:layout_marginTop="-10dp"
+        android:textSize="15dp"
+        android:layout_marginStart="20dp"
+        android:textColor="#808080"
+        />
+
+    <View
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/tvLT"
+        android:background="#808080"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPopular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="popular"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        android:textColor="#f57c00"
+        android:layout_below="@id/garis"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvNA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Arrival"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        android:textColor="#808080"
+        android:layout_below="@id/garis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textSize="20dp"
+        android:textColor="#808080"
+        android:layout_below="@id/garis"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:cardCornerRadius="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/tvPopular">
+        <ImageView
+            android:id="@+id/ivPicture3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/tvPopular"
+            android:src="@drawable/zyad"
+            android:scaleType="centerCrop"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvPicture1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ezzeldin from South Sudan"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_toRightOf="@id/cv1"
+        android:layout_marginTop="430dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv2Picture1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ezzesazy Family"
+        android:textSize="18dp"
+        android:textColor="#808080"
+        android:layout_toRightOf="@id/cv1"
+        android:layout_below="@id/tvPicture1"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv3Picture1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$ 81,59"
+        android:textSize="20dp"
+        android:textColor="#F57C00"
+        android:layout_toRightOf="@id/cv1"
+        android:layout_below="@id/tv2Picture1"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:cardCornerRadius="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/cv1">
+        <ImageView
+            android:id="@+id/ivPicture4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/galih"
+            android:scaleType="centerCrop"
+            />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/tvPicture2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jawir The Original"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_toRightOf="@id/cv2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="510dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/tv2Picture2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jawir Story"
+        android:textSize="18dp"
+        android:textColor="#808080"
+        android:layout_toRightOf="@id/cv2"
+        android:layout_below="@id/tvPicture2"
+
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv3Picture2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$ 538,11"
+        android:textSize="20dp"
+        android:textColor="#F57C00"
+        android:layout_toRightOf="@id/cv2"
+        android:layout_below="@id/tv2Picture2"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

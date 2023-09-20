@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AndroidStudioProject</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="swiss">Switzerland adalah negeri yang terkenal dengan pegunungan indah, dan di sinilah petualangan seorang pendaki bernama Emma dimulai. Emma mengeksplor pegunungan Swiss, melihat pemandangan alam yang luar biasa dan bertemu dengan penduduk lokal yang ramah. Selama perjalanannya, dia juga mencicipi keju lezat dan cokelat Swiss yang terkenal. Emma membuat kenangan tak terlupakan dalam petualangannya di Swiss.</string>
+    <string name="cerita_nano_dan_napis">Ayah yang bernama Nano adalah seorang ilmuwan brilian yang selalu sibuk dengan penelitian dan eksperimennya di laboratoriumnya. Dia adalah sosok yang tekun dan penuh dedikasi terhadap pekerjaannya. Namun, dalam kesibukannya itu, dia sering kali lupa bagaimana cara berkomunikasi dengan anaknya yang bernama Napis.
+
+Napis adalah seorang anak yang penuh semangat dan rasa ingin tahu. Dia selalu ingin tahu tentang dunia di sekitarnya dan ingin berbagi pengalamannya dengan ayahnya. Namun, Nano sering kali terlalu sibuk untuk mendengarkan cerita-cerita kecil Napis atau menjawab pertanyaan-pertanyaan sederhana yang diajukan oleh anaknya.
+
+Suatu hari, Napis memiliki ide brilian untuk menghubungkan dunia ayahnya yang penuh dengan teknologi dan dunianya yang penuh dengan keingintahuan anak-anak. Dia memutuskan untuk membuat proyek sederhana yang melibatkan ayahnya. Napis merancang robot kecil bernama "Nanapis," yang bisa berbicara dan membantu ayahnya dalam penelitian, tetapi juga bisa menjadi teman bermain yang hebat untuk Napis.
+
+Nanapis membawa perubahan besar dalam hubungan antara Nano dan Napis. Ayah dan anak mulai menghabiskan lebih banyak waktu bersama-sama, belajar satu sama lain. Nano mulai lebih mendengarkan cerita-cerita kecil Napis dan menjawab semua pertanyaannya dengan penuh kasih sayang. Mereka berdua belajar banyak satu sama lain, Nano tentang keingintahuan dan kreativitas anak-anak, dan Napis tentang teknologi dan ilmu pengetahuan dari ayahnya.
+
+Berkat Nanapis, hubungan antara Nano dan Napis menjadi lebih dekat dan harmonis. Mereka bersama-sama menjalani petualangan baru, menjelajahi dunia ilmu pengetahuan dan imajinasi bersama-sama. Dan di balik semua itu, Nanapis menjadi simbol pentingnya menggabungkan teknologi dan keingintahuan anak-anak dengan hubungan keluarga yang kuat dan saling mendukung.</string>
+    <string name="synopsis">Nano adalah robot kecil yang selalu membantu Dr. Smith dalam penelitian dan menjaga komputer mereka dari ancaman virus. Dia juga selalu memberikan semangat dan peduli pada lingkungan sekitarnya.</string>
+    <string name="judul_doa"><![CDATA[Doa dan Dzikir App]]></string>
+    <string name="doa_harian">Doa dan Dzikir Harian</string>
+    <string name="doa_latin">Alhamdu lillahil ladzii ahyaanaa ba\'da maa amaa tanaa wa ilahin nusyuuru</string>
+    <string name="doa_arab">اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ</string>
+
+</resources>

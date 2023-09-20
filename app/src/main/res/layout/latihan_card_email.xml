@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="18dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ivDestination"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/swiss_destination"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Switzerland"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:layout_below="@id/ivDestination"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/tvDescribtion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvLocation"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="15dp"
+                android:text="@string/swiss"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:id="@+id/ivLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baseline_location_on_24"
+                android:layout_below="@id/tvDescribtion"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/tvLocation2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivLocation"
+                android:layout_below="@id/tvDescribtion"
+                android:text="Switzerland"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:id="@+id/ivPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tvLocation2"
+                android:background="@drawable/baseline_price_check_24"
+                android:layout_below="@id/tvDescribtion"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/tvLocation3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivPrice"
+                android:layout_below="@id/tvDescribtion"
+                android:text="100 / package"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ivPrice"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="15dp"
+                android:backgroundTint="@color/purple_500"
+                android:text="Plan Trip Now"
+                android:textAllCaps="false" />
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

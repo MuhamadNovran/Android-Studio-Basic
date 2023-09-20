@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".belajarScrollActivity">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/baseline_arrow_back_ios_24"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/ivBookMark"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/baseline_bookmark_24"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="320dp"
+        android:layout_toRightOf="@id/ivBack"
+        />
+
+    <ImageView
+        android:id="@+id/ivGalih"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:src="@drawable/galih"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/ivBack"
+        />
+
+    <TextView
+        android:id="@+id/tvTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivGalih"
+        android:text="The War Of Java"
+        android:layout_below="@id/ivBack"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivGalih"
+        android:text="JawirStory"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tvTittle"
+        android:layout_marginStart="15dp"
+        android:textColor="#808080"
+        android:textSize="13dp"
+        />
+
+    <ImageView
+        android:id="@+id/ivStar"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@id/tvDev"
+        android:layout_below="@id/tvTittle"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/baseline_star_24"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivStar"
+        android:text="4.6"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="2dp"
+        android:layout_below="@id/tvTittle"
+        android:textColor="#808080"
+        android:textSize="13dp"
+        />
+
+    <TextView
+        android:id="@+id/tvReviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvRate"
+        android:text="132 Reviews"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/tvTittle"
+        android:textColor="#808080"
+        android:textSize="13dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_below="@id/ivGalih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvGenre1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center"
+            android:background="#d3d3d3"
+            android:text="Self-Development" />
+
+        <TextView
+            android:id="@+id/tvGenre2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@id/tvGenre1"
+            android:background="#d3d3d3"
+            android:text="Self-Development" />
+
+        <TextView
+            android:id="@+id/tvGenre3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Self-Development"
+            android:layout_toRightOf="@id/tvGenre2"
+            android:layout_marginStart="20dp"
+            android:background="#d3d3d3"
+            />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvSynopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Synopsis"
+        android:layout_below="@id/card"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDescribtionSynopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSynopsis"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/synopsis" />
+
+    <TextView
+        android:id="@+id/tvReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review"
+        android:layout_below="@id/tvDescribtionSynopsis"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoaActivity">
+    <ImageView
+        android:id="@+id/ivBackgorundDoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rectangle"
+        />
+
+    <TextView
+        android:id="@+id/tvApp"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Do'a dan Dzikir App"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_doa"
+        android:layout_toRightOf="@id/tvApp"
+        android:layout_marginStart="50dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPilihan"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="Pilihan doa dan dzikir"
+        android:layout_below="@id/ivBackgorundDoa"
+        android:textSize="25dp"
+        android:textColor="#FF9800"
+        android:layout_marginStart="20dp"
+        />
+
+
+        <Button
+            android:id="@+id/btnSelengkapnya"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:text="Selengkapnya  ->"
+            android:textSize="10dp"
+            android:layout_toRightOf="@+id/tvPilihan"
+            android:layout_below="@id/ivBackgorundDoa"
+            android:backgroundTint="#FFFF9800"
+            android:layout_marginStart="30dp"
+            android:textAllCaps="false"
+            />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDoa"
+        android:layout_below="@id/tvPilihan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomeActivity"
+    android:background="@drawable/bg_screen3">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngopi Bro!!"
+        android:textColor="#BD815C"
+        android:layout_marginBottom="250sp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="50sp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        >
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:layout_margin="15dp"
+        android:text="Share"
+        app:icon="@drawable/baseline_share_24"
+        />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPindah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Next"
+            app:icon="@drawable/baseline_arrow_forward_24"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

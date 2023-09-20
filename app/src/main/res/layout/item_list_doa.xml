@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rlDoa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF9800">
+        <TextView
+            android:id="@+id/tvDoa1"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="Dzikir dan Doa Sunnah Setelah Sholat"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            />
+
+        <ImageView
+            android:id="@+id/ivDoa1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="50dp"
+            android:layout_toRightOf="@id/tvDoa1"
+            android:src="@drawable/doa_harian2"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
